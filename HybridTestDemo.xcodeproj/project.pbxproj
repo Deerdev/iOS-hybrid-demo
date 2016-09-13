@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					311BD9341D87CB2600DDE93C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3B37F52X83;
 					};
 					311BD94D1D87CB2600DDE93C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -413,9 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HybridTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daoquan.HybridTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daoquan.pushdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HybridTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daoquan.HybridTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daoquan.pushdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
