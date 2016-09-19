@@ -15,6 +15,23 @@
 		311BD9481D87CB2600DDE93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311BD9461D87CB2600DDE93C /* LaunchScreen.storyboard */; };
 		311BD9531D87CB2600DDE93C /* HybridTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311BD9521D87CB2600DDE93C /* HybridTestDemoTests.m */; };
 		311BD95E1D87CB2600DDE93C /* HybridTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311BD95D1D87CB2600DDE93C /* HybridTestDemoUITests.m */; };
+		319818DF1D8E776B001BFEBE /* index0.html in Resources */ = {isa = PBXBuildFile; fileRef = 319818D81D8E776B001BFEBE /* index0.html */; };
+		319818E01D8E776B001BFEBE /* URLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818DA1D8E776B001BFEBE /* URLController.m */; };
+		319818E11D8E776B001BFEBE /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818DC1D8E776B001BFEBE /* URLWebViewController.m */; };
+		319818E21D8E776B001BFEBE /* URLWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818DE1D8E776B001BFEBE /* URLWKWebViewController.m */; };
+		319818E61D8E7779001BFEBE /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 319818E31D8E7779001BFEBE /* index2.html */; };
+		319818E71D8E7779001BFEBE /* MHWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818E51D8E7779001BFEBE /* MHWKWebViewController.m */; };
+		319818EB1D8E7784001BFEBE /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = 319818E81D8E7784001BFEBE /* index1.html */; };
+		319818EC1D8E7784001BFEBE /* JSCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818EA1D8E7784001BFEBE /* JSCWebViewController.m */; };
+		319818F51D8E778D001BFEBE /* index3.html in Resources */ = {isa = PBXBuildFile; fileRef = 319818ED1D8E778D001BFEBE /* index3.html */; };
+		319818F61D8E778D001BFEBE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818EF1D8E778D001BFEBE /* WebViewController.m */; };
+		319818F81D8E778D001BFEBE /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818F21D8E778D001BFEBE /* WKWebViewController.m */; };
+		319818F91D8E778D001BFEBE /* WVJSBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818F41D8E778D001BFEBE /* WVJSBController.m */; };
+		319819031D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818FC1D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.m */; };
+		319819041D8E77B2001BFEBE /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 319818FE1D8E77B2001BFEBE /* WebViewJavascriptBridge.m */; };
+		319819051D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 319819001D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.m */; };
+		319819061D8E77B2001BFEBE /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 319819021D8E77B2001BFEBE /* WKWebViewJavascriptBridge.m */; };
+		3198190A1D8E81BA001BFEBE /* QRCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 319819091D8E81BA001BFEBE /* QRCodeScanVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,36 @@
 		311BD9591D87CB2600DDE93C /* HybridTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		311BD95D1D87CB2600DDE93C /* HybridTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridTestDemoUITests.m; sourceTree = "<group>"; };
 		311BD95F1D87CB2600DDE93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319818D81D8E776B001BFEBE /* index0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index0.html; path = hybridLibs/URL/index0.html; sourceTree = "<group>"; };
+		319818D91D8E776B001BFEBE /* URLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLController.h; path = hybridLibs/URL/URLController.h; sourceTree = "<group>"; };
+		319818DA1D8E776B001BFEBE /* URLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLController.m; path = hybridLibs/URL/URLController.m; sourceTree = "<group>"; };
+		319818DB1D8E776B001BFEBE /* URLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLWebViewController.h; path = hybridLibs/URL/URLWebViewController.h; sourceTree = "<group>"; };
+		319818DC1D8E776B001BFEBE /* URLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLWebViewController.m; path = hybridLibs/URL/URLWebViewController.m; sourceTree = "<group>"; };
+		319818DD1D8E776B001BFEBE /* URLWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLWKWebViewController.h; path = hybridLibs/URL/URLWKWebViewController.h; sourceTree = "<group>"; };
+		319818DE1D8E776B001BFEBE /* URLWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLWKWebViewController.m; path = hybridLibs/URL/URLWKWebViewController.m; sourceTree = "<group>"; };
+		319818E31D8E7779001BFEBE /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index2.html; path = hybridLibs/MessageHandler/index2.html; sourceTree = "<group>"; };
+		319818E41D8E7779001BFEBE /* MHWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHWKWebViewController.h; path = hybridLibs/MessageHandler/MHWKWebViewController.h; sourceTree = "<group>"; };
+		319818E51D8E7779001BFEBE /* MHWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHWKWebViewController.m; path = hybridLibs/MessageHandler/MHWKWebViewController.m; sourceTree = "<group>"; };
+		319818E81D8E7784001BFEBE /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index1.html; path = hybridLibs/JavaScriptCore/index1.html; sourceTree = "<group>"; };
+		319818E91D8E7784001BFEBE /* JSCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSCWebViewController.h; path = hybridLibs/JavaScriptCore/JSCWebViewController.h; sourceTree = "<group>"; };
+		319818EA1D8E7784001BFEBE /* JSCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSCWebViewController.m; path = hybridLibs/JavaScriptCore/JSCWebViewController.m; sourceTree = "<group>"; };
+		319818ED1D8E778D001BFEBE /* index3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index3.html; path = hybridLibs/WebViewJavaScriptBridge/index3.html; sourceTree = "<group>"; };
+		319818EE1D8E778D001BFEBE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = hybridLibs/WebViewJavaScriptBridge/WebViewController.h; sourceTree = "<group>"; };
+		319818EF1D8E778D001BFEBE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = hybridLibs/WebViewJavaScriptBridge/WebViewController.m; sourceTree = "<group>"; };
+		319818F11D8E778D001BFEBE /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKWebViewController.h; path = hybridLibs/WebViewJavaScriptBridge/WKWebViewController.h; sourceTree = "<group>"; };
+		319818F21D8E778D001BFEBE /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKWebViewController.m; path = hybridLibs/WebViewJavaScriptBridge/WKWebViewController.m; sourceTree = "<group>"; };
+		319818F31D8E778D001BFEBE /* WVJSBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WVJSBController.h; path = hybridLibs/WebViewJavaScriptBridge/WVJSBController.h; sourceTree = "<group>"; };
+		319818F41D8E778D001BFEBE /* WVJSBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WVJSBController.m; path = hybridLibs/WebViewJavaScriptBridge/WVJSBController.m; sourceTree = "<group>"; };
+		319818FB1D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		319818FC1D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		319818FD1D8E77B2001BFEBE /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		319818FE1D8E77B2001BFEBE /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		319818FF1D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		319819001D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		319819011D8E77B2001BFEBE /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		319819021D8E77B2001BFEBE /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = hybridLibs/WebViewJavaScriptBridge/WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		319819081D8E81BA001BFEBE /* QRCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeScanVC.h; path = QRCode/QRCodeScanVC.h; sourceTree = "<group>"; };
+		319819091D8E81BA001BFEBE /* QRCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCodeScanVC.m; path = QRCode/QRCodeScanVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +148,8 @@
 		311BD9371D87CB2600DDE93C /* HybridTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				319819071D8E81B1001BFEBE /* QRCode */,
+				319818D31D8E7719001BFEBE /* hybridLibs */,
 				311BD93B1D87CB2600DDE93C /* AppDelegate.h */,
 				311BD93C1D87CB2600DDE93C /* AppDelegate.m */,
 				311BD93E1D87CB2600DDE93C /* ViewController.h */,
@@ -138,6 +187,90 @@
 				311BD95F1D87CB2600DDE93C /* Info.plist */,
 			);
 			path = HybridTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		319818D31D8E7719001BFEBE /* hybridLibs */ = {
+			isa = PBXGroup;
+			children = (
+				319818D71D8E775A001BFEBE /* WebViewJavaScriptBridge */,
+				319818D61D8E7752001BFEBE /* URL */,
+				319818D51D8E7748001BFEBE /* MessageHandler */,
+				319818D41D8E773F001BFEBE /* JavaScriptCore */,
+			);
+			name = hybridLibs;
+			sourceTree = "<group>";
+		};
+		319818D41D8E773F001BFEBE /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				319818E81D8E7784001BFEBE /* index1.html */,
+				319818E91D8E7784001BFEBE /* JSCWebViewController.h */,
+				319818EA1D8E7784001BFEBE /* JSCWebViewController.m */,
+			);
+			name = JavaScriptCore;
+			sourceTree = "<group>";
+		};
+		319818D51D8E7748001BFEBE /* MessageHandler */ = {
+			isa = PBXGroup;
+			children = (
+				319818E31D8E7779001BFEBE /* index2.html */,
+				319818E41D8E7779001BFEBE /* MHWKWebViewController.h */,
+				319818E51D8E7779001BFEBE /* MHWKWebViewController.m */,
+			);
+			name = MessageHandler;
+			sourceTree = "<group>";
+		};
+		319818D61D8E7752001BFEBE /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				319818D81D8E776B001BFEBE /* index0.html */,
+				319818D91D8E776B001BFEBE /* URLController.h */,
+				319818DA1D8E776B001BFEBE /* URLController.m */,
+				319818DB1D8E776B001BFEBE /* URLWebViewController.h */,
+				319818DC1D8E776B001BFEBE /* URLWebViewController.m */,
+				319818DD1D8E776B001BFEBE /* URLWKWebViewController.h */,
+				319818DE1D8E776B001BFEBE /* URLWKWebViewController.m */,
+			);
+			name = URL;
+			sourceTree = "<group>";
+		};
+		319818D71D8E775A001BFEBE /* WebViewJavaScriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				319818ED1D8E778D001BFEBE /* index3.html */,
+				319818FA1D8E77A8001BFEBE /* WebViewJavascriptBridge */,
+				319818EE1D8E778D001BFEBE /* WebViewController.h */,
+				319818EF1D8E778D001BFEBE /* WebViewController.m */,
+				319818F11D8E778D001BFEBE /* WKWebViewController.h */,
+				319818F21D8E778D001BFEBE /* WKWebViewController.m */,
+				319818F31D8E778D001BFEBE /* WVJSBController.h */,
+				319818F41D8E778D001BFEBE /* WVJSBController.m */,
+			);
+			name = WebViewJavaScriptBridge;
+			sourceTree = "<group>";
+		};
+		319818FA1D8E77A8001BFEBE /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				319818FB1D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.h */,
+				319818FC1D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.m */,
+				319818FD1D8E77B2001BFEBE /* WebViewJavascriptBridge.h */,
+				319818FE1D8E77B2001BFEBE /* WebViewJavascriptBridge.m */,
+				319818FF1D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.h */,
+				319819001D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.m */,
+				319819011D8E77B2001BFEBE /* WKWebViewJavascriptBridge.h */,
+				319819021D8E77B2001BFEBE /* WKWebViewJavascriptBridge.m */,
+			);
+			name = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		319819071D8E81B1001BFEBE /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				319819081D8E81BA001BFEBE /* QRCodeScanVC.h */,
+				319819091D8E81BA001BFEBE /* QRCodeScanVC.m */,
+			);
+			name = QRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +378,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				311BD9481D87CB2600DDE93C /* LaunchScreen.storyboard in Resources */,
+				319818F51D8E778D001BFEBE /* index3.html in Resources */,
 				311BD9451D87CB2600DDE93C /* Assets.xcassets in Resources */,
+				319818DF1D8E776B001BFEBE /* index0.html in Resources */,
 				311BD9431D87CB2600DDE93C /* Main.storyboard in Resources */,
+				319818E61D8E7779001BFEBE /* index2.html in Resources */,
+				319818EB1D8E7784001BFEBE /* index1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +409,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				311BD9401D87CB2600DDE93C /* ViewController.m in Sources */,
+				319818E11D8E776B001BFEBE /* URLWebViewController.m in Sources */,
+				319818E01D8E776B001BFEBE /* URLController.m in Sources */,
+				319818EC1D8E7784001BFEBE /* JSCWebViewController.m in Sources */,
+				319819051D8E77B2001BFEBE /* WebViewJavascriptBridgeBase.m in Sources */,
+				3198190A1D8E81BA001BFEBE /* QRCodeScanVC.m in Sources */,
+				319818F61D8E778D001BFEBE /* WebViewController.m in Sources */,
+				319818F81D8E778D001BFEBE /* WKWebViewController.m in Sources */,
+				319818E71D8E7779001BFEBE /* MHWKWebViewController.m in Sources */,
+				319818F91D8E778D001BFEBE /* WVJSBController.m in Sources */,
+				319819031D8E77B2001BFEBE /* WebViewJavascriptBridge_JS.m in Sources */,
+				319819041D8E77B2001BFEBE /* WebViewJavascriptBridge.m in Sources */,
+				319819061D8E77B2001BFEBE /* WKWebViewJavascriptBridge.m in Sources */,
 				311BD93D1D87CB2600DDE93C /* AppDelegate.m in Sources */,
 				311BD93A1D87CB2600DDE93C /* main.m in Sources */,
+				319818E21D8E776B001BFEBE /* URLWKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +649,7 @@
 				311BD9641D87CB2600DDE93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311BD9651D87CB2600DDE93C /* Build configuration list for PBXNativeTarget "HybridTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +658,7 @@
 				311BD9671D87CB2600DDE93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311BD9681D87CB2600DDE93C /* Build configuration list for PBXNativeTarget "HybridTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +667,7 @@
 				311BD96A1D87CB2600DDE93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
